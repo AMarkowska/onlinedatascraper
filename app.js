@@ -36,7 +36,7 @@ app.get('/wikipedia', function(req, res){
          });
        });
          res.send(imdb_data);
-         fs.writeFile('imdb_output.js', "var imdb=imdb_output = [" + imdb_data + "]", function(error){
+         fs.writeFile('imdb_output.js', "var imdb_output = [" + imdb_data + "]", function(error){
            console.log("File is written successfully!")
          });
        }
