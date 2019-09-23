@@ -1,0 +1,14 @@
+{
+    "name": "scraper",
+    "version": "0.0.1",
+    "homepage": "scraper",
+    "description": "data scraper tool",
+    "author": "Agata",
+    "main": "app.js",
+    "dependencies": {
+        "nodemon": "latest",
+        "express": "latest",
+        "request": "latest",
+        "cheerio": "latest"
+    }
+}
